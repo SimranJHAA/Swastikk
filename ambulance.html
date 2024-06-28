@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24*7 Ambulance Services</title>
+    <style>
+        /* Basic styling for demonstration purposes */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --green:#4f9f92;
+    --black:#444;
+    --light-color:#111;
+    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --border:.2rem solid var(--green);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    color:var(--black);
+    font-size: 5rem;
+    letter-spacing: .4rem;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color:var(--green);
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    border:var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color:var(--green);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background: #fff;
+}
+
+.btn span{
+    padding:.7rem 1rem;
+    border-radius: .5rem;
+    background: var(--green);
+    color:#fff;
+    margin-left: .5rem;
+}
+
+.btn:hover{
+    background: var(--green);
+    color:#fff;
+}
+
+.btn:hover span{
+    color: var(--green);
+    background:#fff;
+    margin-left: 1rem;
+}
+.header{
+    padding:2rem 9%;
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #53a28d;
+}
+.header .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.header .logo i{
+    color: #c0392b;
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover{
+    color:red;
+}
+#menu-btn{
+    font-size: 2.5rem;
+    border-radius: .5rem;
+    background: var(--green);
+    color:#fff;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+section{
+    padding:10.2rem 9%;
+}
+
+section:nth-child(even){
+    background: #f5f5f5;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #40917f;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+            margin-right: 50% 50%;
+        }
+        h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            height:100%;
+            border-collapse: collapse;
+            
+        }
+        th, td {
+            border: 1px solid #ddd;
+            font-size: 1.3rem;;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-heartbeat"></i> <strong>MY</strong>health </a>
+    
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            
+            <a href="https://www.google.com/maps/@28.6093209,76.952783,14z?entry=ttu">Location</a>
+    
+        </nav>
+    
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
+    </header>
+
+    
+
+
+<main>
+
+    <section>
+        <h1 class="heading"> 24/7 <span>Ambulance</span> </h1>
+        <h2>Hospitals/Centres Providing 24/7 Ambulance Services</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hospital/service Name</th>
+                    <th>Contact Number</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Manipal Hospital</td>
+                    <td>08123203688</td>
+                    <td>Dwarka Sector 6, Delhi</td>
+                </tr>
+                <tr>
+                    <td>MaxHospital</td>
+                    <td>09724119144</td>
+                    <td>
+                        Sushant Lok Phase 1, Gurgaon
+                    </td>
+                </tr>
+                <tr>
+                    <td>CK birla Hospital</td>
+                    <td>08147016715</td>
+                    <td>
+                        Punjabi Bagh, Delhi</td>
+                </tr>
+                <tr>
+                    <td>Kumar Ambulance Service</td>
+                    <td>08105046564</td>
+                    <td>
+                        No 14/247 Dakshinpuri, Delhi</td>
+                </tr>
+                <tr>
+                    <td>Snjeev Ambulance Service</td>
+                    <td>08460535098</td>
+                    <td>
+                        Rohtak Road Paschim Vihar, Delhi</td>
+                </tr>
+                <tr>
+                    <td>Lord Krishna Ambulance</td>
+                    <td>08123131500</td>
+                    <td>
+                        Rohini Sector 13, Delhi</td>
+                </tr>
+                <tr>
+                    <td>Sarthak Ambulance Service</td>
+                    <td>09724119144</td>
+                    <td>Jankapuri</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+<footer>
+    <p>Contact Us:</p>
+    <p>Email: <a href="mailto:info@ambulanceservices.com">info@ambulanceservices.com</a></p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+</footer>
+
+</body>
+</html>
